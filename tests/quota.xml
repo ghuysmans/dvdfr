@@ -1,0 +1,11 @@
+<quotas generator="$Revision: 1360 $">
+    <fetchs>
+        <used>2</used>
+        <maximum>200</maximum>
+    </fetchs>
+    <resets>
+        <used>0</used>
+        <maximum>3</maximum>
+        <url>http://www.dvdfr.com/api/quota.php</url>
+    </resets>
+</quotas>

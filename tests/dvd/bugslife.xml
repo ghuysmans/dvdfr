@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dvd generator="$Id: dvd.tpl 1632 2010-04-20 09:03:34Z glapierre $"> <id>6242</id> <url>https://www.dvdfr.com/dvd/f6242-1001-pattes.html</url> <ean>3459379419178</ean> <cover>https://www.dvdfr.com/images/dvd/covers/100x140/e60b4aa32dbdc98bd48c4081089f10b6/6242/old-1001_pattes_collector.0.jpg</cover> <media>DVD</media> <titres> <fr>1001 pattes</fr> <vo>A Bug's Life</vo> <alternatif/> <alternatif_vo/> <original/> </titres> <filiation/> <edition>Édition Collector</edition> <editeur>Disney - PIXAR</editeur> <distributeur>The Walt Disney Company France</distributeur> <studio>Walt Disney, Pixar</studio> <listePays> <pays id="2">USA</pays> </listePays> <annee>1998</annee> <sortie>1999-02-10</sortie> <synopsis>Oppressée par des sauterelles racketteuses, la fourmilière de la princesse Atta ne peut plus faire face. Tilt, inventeur insatiable mais maladroit légendaire, décide d'aller chercher du secours. En guise d'aide, il ne trouve qu'une troupe de cirque qu'il prend pour des héros…</synopsis> <langueOrigine/> <reference>BF941917</reference> <collection order="">Classique Disney</collection> <duree>93</duree> <packaging>Keep Case</packaging> <bitrate unite="mbits/s"/> <authoring/> <disques nbdiscs="2"> <disque ordre="1">DVD-9</disque> <disque ordre="2">DVD-9</disque> </disques> <zones> <zone>2</zone> </zones> <image> <format type="1">16/9 Anamorphique (compatible 4/3)</format> <aspect_ratio>2.35</aspect_ratio> <standard>PAL</standard> <mode>Couleurs</mode> <hdrs> </hdrs> <source type=""/> </image> <rating id="1">Tous publics</rating> <stars> <star type="Réalisateur" id="1840">John Lasseter</star> <star type="Réalisateur" id="1841">Andrew Stanton</star> <star type="Scénariste" id="1841">Andrew Stanton</star> <star type="Scénariste" id="1847">Don McEnery</star> <star type="Scénariste" id="1848">Bob Shaw</star> <star type="Voix en VO" id="1842">Dave Foley</star> <star type="Voix en VO" id="1843">Kevin Spacey</star> <star type="Voix en VO" id="1844">Julia Louis-Dreyfus</star> <star type="Voix en VO" id="1845">Hayden Panettiere</star> <star type="Voix en VO" id="1846">Phyllis Diller</star> <star type="Compositeur" id="1849">Randy Newman</star> </stars> <disponibilite> <code_dispo>2</code_dispo> <libelle>Hors catalogue</libelle> <date>Sorti le 2002-11-26</date> </disponibilite> <critiques> <dvdfr>8,00</dvdfr> <public>4,48</public> </critiques> <categories> <categorie id="54">Pour enfants</categorie> <categorie id="2">Animation</categorie> </categories> <audiotracks> <track> <langue>Français</langue> <code id="23">DTS5.1</code> <standard id="2">DTS</standard> <encodage>5.1</encodage> </track> <track> <langue>Anglais</langue> <code id="12">DD5.1</code> <standard id="1">Dolby Digital</standard> <encodage>5.1</encodage> </track> <track> <langue>Français</langue> <code id="12">DD5.1</code> <standard id="1">Dolby Digital</standard> <encodage>5.1</encodage> </track> </audiotracks> <mixagesSon> </mixagesSon> <soustitrage> <soustitre type="normal">Français</soustitre> <soustitre type="normal">Anglais</soustitre> </soustitrage> <listeBonus> <bonus type="divers"/> <bonus type="video"> DVD 1 : 
+Commentaire audio de John Lasseter, Andrew Stanton et Lee Unkrich
+Musique isolée (DD2.0)
+Effets sonores isolés (DD5.1)
+ DVD 2 : 
+Making of
+Conception de l'histoire
+Scènes supprimées
+Comparaisons film/storyboard
+Doublages
+Production
+Interview de Gary Rydstrom sur les effets sonores
+Bandes-annonces
+Galeries photos, dessins et affiches
+2 bêtisiers
+Court métrage : "Geri's Game" de Jan Pinkava</bonus> <bonus type="dvdrom"/> </listeBonus> <listeBonusHtml> <bonushtml type="divers"><![CDATA[
+  <br />
+]]></bonushtml> <bonushtml type="video"><![CDATA[
+  <b>DVD 1&#160;:</b><br />
+  Commentaire audio de John Lasseter, Andrew Stanton et Lee
+  Unkrich<br />
+  Musique isolée (DD2.0)<br />
+  Effets sonores isolés (DD5.1)<br /> <b>DVD 2&#160;:</b><br />
+  Making of<br />
+  Conception de l&#8217;histoire<br />
+  Scènes supprimées<br />
+  Comparaisons film/storyboard<br />
+  Doublages<br />
+  Production<br />
+  Interview de Gary Rydstrom sur les effets sonores<br />
+  Bandes-annonces<br />
+  Galeries photos, dessins et affiches<br />
+  2&#160;bêtisiers<br />
+  Court métrage&#160;: &laquo;&#x202f;Geri&#8217;s Game&#x202f;&raquo; de Jan Pinkava<br />
+]]></bonushtml> <bonushtml type="dvdrom"><![CDATA[
+  <br />
+]]></bonushtml> </listeBonusHtml> <contenu> <episodes/> <chansons/> <sketches/> </contenu> <infos_supplementaires> <info>Certifié THX</info> </infos_supplementaires> <bandesAnnonces> <bandeAnnonce lang="VF" thumb="//i.ytimg.com/vi/DTx41c3suSs/0.jpg" url="https://www.dvdfr.com/dvd/f6242-1001-pattes.html?autoplayba=1"/> </bandesAnnonces> </dvd>

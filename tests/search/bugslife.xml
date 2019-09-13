@@ -1,0 +1,20 @@
+<dvds generator="$Id: dvd.tpl 855 2008-08-04 15:53:24Z  $">
+    <dvd>
+        <id>6242</id>
+        <media>DVD</media>
+        <cover>https://www.dvdfr.com/images/dvd/covers/200x280/e60b4aa32dbdc98bd48c4081089f10b6/6242/old-1001_pattes_collector.0.jpg</cover>
+        <titres>
+            <fr>1001 pattes</fr>
+            <vo>A Bug's Life</vo>
+            <alternatif/>
+            <alternatif_vo/>
+        </titres>
+        <annee>1998</annee>
+        <edition>Édition Collector</edition>
+        <editeur>Walt Disney France</editeur>
+        <stars>
+            <star type="Réalisateur" id="1840">John Lasseter</star>
+            <star type="Réalisateur" id="1841">Andrew Stanton</star>
+        </stars>
+    </dvd>
+</dvds>

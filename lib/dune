@@ -1,0 +1,4 @@
+(library
+ (public_name dvdfr)
+ (libraries cohttp-lwt ppx_protocol_conv_xml_light)
+ (preprocess (pps ppx_protocol_conv)))

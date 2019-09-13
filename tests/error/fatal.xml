@@ -1,0 +1,6 @@
+<errors>
+	<error type="fatal">
+		<code>CODE_ERREUR</code>
+		<message>Message d'erreur</message>
+	</error>
+</errors>

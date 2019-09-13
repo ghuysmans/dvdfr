@@ -1,0 +1,4 @@
+(executable
+ (name search)
+ (libraries dvdfr cohttp-lwt-unix tls)
+ (preprocess (pps lwt_ppx)))

@@ -1,0 +1,15 @@
+opam-version: "1.2"
+name: "dvdfr"
+version: "0.0.1"
+maintainer: "Guillaume Huysmans <ghuysmans99@gmail.com>"
+authors: "Guillaume Huysmans <ghuysmans99@gmail.com>"
+homepage: "https://github.com/ghuysmans/dvdfr/"
+bug-reports: "https://github.com/ghuysmans/dvdfr/issues"
+dev-repo: "git://github.com/ghuysmans/dvdfr/"
+build: [["dune" "build" "-p" name "-j" jobs]]
+synopsis: "API for dvdfr.com"
+depends: [
+  "dune" {build}
+  "cohttp-lwt"
+  "ppx_protocol_conv_xml_light"
+]
