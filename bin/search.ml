@@ -1,8 +1,7 @@
 module Config = struct
   let user_agent = "ocaml-dvdfr"
 end
-module D = Dvdfr.Make (Config) (Cohttp_lwt_unix.Client)
-open Dvdfr
+module D = Dvdfr.Api.Make (Config) (Cohttp_lwt_unix.Client)
 
 let () = Lwt_main.run @@
   let t, q =
@@ -16,14 +15,14 @@ let () = Lwt_main.run @@
   let%lwt r = D.search ~with_actors:true t q in
   match r with
   | Ok l ->
-    l |> List.iter (fun {titres; cover; stars; _} ->
+    l |> List.iter (fun {Dvdfr.Search.titres; cover; stars; _} ->
       Printf.printf "%s, %s\n" titres.fr cover;
-      stars |> List.iter @@ fun {typ; nom; _} ->
-        Printf.printf "\t%s : %s\n" (string_of_typ typ) nom
+      stars |> List.iter @@ fun {Dvdfr.Stars.typ; nom; _} ->
+        Printf.printf "\t%s : %s\n" (Dvdfr.Stars.string_of_typ typ) nom
     );
     Lwt.return ()
   | Error e ->
-    e |> List.iter (fun {etyp; code; message} ->
-      Printf.printf "%s: %s - %s\n" (string_of_etyp etyp) code message
+    e |> List.iter (fun {Dvdfr.Errors.typ; code; message} ->
+      Printf.printf "%s: %s - %s\n" (Dvdfr.Errors.string_of_typ typ) code message
     );
     Lwt.return ()
