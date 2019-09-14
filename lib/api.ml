@@ -38,4 +38,13 @@ module Make (CONFIG : C) (CLIENT : Cohttp_lwt.S.Client) = struct
       | Ok l -> Lwt.return (Ok l)
       | Error e ->
         Lwt.fail_with @@ "Dvdfr.search: " ^ Xml_light.error_to_string_hum e
+
+  let titles_from_barcode bc =
+    search `Barcode bc >|= function
+    | Error _ -> []
+    | Ok l ->
+      l |> List.map @@ fun dvd ->
+        match dvd.Search.titres.vo with
+        | Some vo -> `French_and_original (dvd.titres.fr, vo)
+        | None -> `French dvd.titres.fr
 end
